@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>express App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to express</h1>
+    <p>ab yha bhe html padhna hai</p>
+
+    <a href="/">Home</a>
+    <a href="/contact">Contact</a>
+    <a href="/digital-clock">digital-Clock</a>
+ <div class="btn"> <button>count:0</button>
+</div>
+    <script>
+        let count=0;
+        document.querySelector('button').addEventListener('click',function(){
+            count++;
+            document.querySelector('button').innerHTML='count:'+count;
+        });
+    </script>
+</body>
+</html>
